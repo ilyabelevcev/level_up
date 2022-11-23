@@ -4,11 +4,51 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>LevelUp</title>
   </head>
   <body>
+    <main>
+        <section class="promo">
+            <video autoplay muted loop id="promoVideo">
+                <source src="./video/promo-bg1.mp4" type="video/mp4">
+            </video>
+            <div class="container promo__container">
+                <div class="promo__logo">
+                    <h1 class="promo__logo-title">
+                        <a class="promo__title-link" href="/">LevelUp</a>
+                    </h1>
+                    <span></span>
+                    продукт для повышения потенции.
+                </div>
+                <div class="promo__info">
+                    <div class="promo__info-product">
+                        <img class="promo__info-img" src="./img/prod.png" alt="LevelUp">
+                    </div>
+                    <ol class="promo__info-list">
+                        <h2 class="promo__info-heading section-heading">Характеристики</h2>
+                        <li class="promo__info-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ratione provident id dolore dolor. Placeat!</li>
+                        <li class="promo__info-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nostrum est voluptatibus maxime accusantium, similique modi dolores commodi fugit deleniti vel magnam dolor odio culpa veniam veritatis sapiente debitis. Repudiandae.</li>
+                        <li class="promo__info-item">Lorem ipsum dolor sit amet.</li>
+                    </ol>
+                </div>
+                <button class="promo__button">Заказать</button>
+            </div>
+        </section>
+        <section class="composition">
+            <div class="container composition__container"></div>
+        </section>
+        <section class="comments">
+            <div class="container comments__container"></div>
+        </section>
+        <!-- <section class="promo promo--reverse">
+            <div class="container promo__container"></div>
+        </section> -->
+        <section class="form">
+            <div class="container form__container"></div>
+        </section>
+    </main>
    <!-- <script src="script.js"></script> -->
   </body>
 </html>
