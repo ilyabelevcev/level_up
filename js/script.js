@@ -1,19 +1,27 @@
 // carousel
 $('#js-carousel-wrapper').each(function () {
     var owl = $(this).find('.owl-carousel').owlCarousel({
-        margin: 150,
+        // margin: 150,
         responsive: {
-            400: {
-                items: 1,
-                margin: 0,
+            1450: {
+                items: 3,
+                margin: 100,
+            },
+            1200: {
+                items: 2,
+                margin: 150,
             },
             800: {
                 items: 2,
                 margin: 100,
             },
-            1200: {
-                items: 3,
-                margin: 150,
+            480: {
+                items: 1,
+                margin: 0,
+            },
+            320: {
+                items: 1,
+                margin: 0,
             }
         },
     });

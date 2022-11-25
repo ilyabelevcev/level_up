@@ -124,11 +124,14 @@
   color: #4d4d4d;
 }
 .countdownHolder {
-  font: 20px/1 Arial,sans-serif;
-  letter-spacing: -3px;
-  margin: 5px auto 0;
-  text-align: center;
-  width: 518px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 20px/1 Montserrat,sans-serif;
+    letter-spacing: -3px;
+    margin: 5px auto 0;
+    /* text-align: center; */
+  /* width: 518px; */
 }
 .digit {
   position: absolute;
@@ -137,8 +140,7 @@
   background-color: #444;
   border-radius: 0px;
   text-align: center;
-  color: #000;
-  color: #3f4750;
+  color: #fff;
   letter-spacing: -1px;
   height: 58px;
   padding-top: 4px;
@@ -190,12 +192,12 @@
 	position:absolute;
 	width:5px;
 	height:5px;
-	background-color:#444;
-	/* border-radius:50%; */
+	background-color:#fff;
+	border-radius:50%;
 	left:50%;
 	margin-left:-3px;
 	top:0.2em;
-	box-shadow:1px 1px 1px rgba(4, 4, 4, 0.5);
+	box-shadow:1px 1px 1px rgba(255, 255, 255, 0.5);
 	content:'';
 }
 
